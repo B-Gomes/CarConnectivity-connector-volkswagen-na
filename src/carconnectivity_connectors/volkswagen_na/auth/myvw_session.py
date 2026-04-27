@@ -60,7 +60,7 @@ class MyVWSession(VWWebSession):
                 "accept": "*/*",
                 "content-type": "application/json",
                 "content-version": "1",
-                "user-agent": "Car-Net/60 CFNetwork/1121.2.2 Darwin/19.3.0",
+                "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
                 "accept-language": "en-us",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
@@ -173,7 +173,7 @@ class MyVWSession(VWWebSession):
         #        'code_verifier': self.verifier
         #        }
         token_headers = {
-            "user-agent": "Car-Net/60 CFNetwork/1121.2.2 Darwin/19.3.0",
+            "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
             "content-type": "application/x-www-form-urlencoded",
             "accept-language": "en-us",
             "accept": "*/*",
@@ -268,7 +268,7 @@ class MyVWSession(VWWebSession):
 
         if headers is None:
             headers = {
-                "user-agent": "Car-Net/60 CFNetwork/1121.2.2 Darwin/19.3.0",
+                "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
                 "content-type": "application/x-www-form-urlencoded",
                 "accept-language": "en-us",
                 "accept": "*/*",
